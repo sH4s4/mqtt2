@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT Client</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.3.7/mqtt.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MQTT Client View</h1>
+        <div id="connectionStatus" class="status disconnected">Disconnected</div>
+        
+        <h2>Pesan Yang Masuk</h2>
+        <div id="messages" class="message-container"></div>
+    </div>
+
+    <!-- puzzle -->
+    <div class="container">
+        
+        <table id="messagePuzzle" class="puzzle">
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- footer -->
+     <footer>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Shasa,Padan,Ichal,Syarif,Kiki,ayu</a> - All rights reserved
+            </p>
+            <p class="futfut">Website Ini Di Buat Hanya Untuk Pembelajaran Saja.</p>
+        </div>
+     </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
